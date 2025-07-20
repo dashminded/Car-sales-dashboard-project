@@ -1,56 +1,90 @@
 # Car Sales Dashboard Project
 
-This project was completed as part of the **IBM Data Analyst Professional Certificate** on Coursera, specifically in the course **Data Visualization and Dashboards with Excel and Cognos**.
+This project was completed as part of the **IBM Data Analyst Professional Certificate** – Course 3: *Data Visualization and Dashboards with Excel and Cognos* on Coursera.
 
-It is divided into two main parts:
-
----
-
-## 📊 Part 1: Excel-Based Visualizations
-
-**Folder**: `excel-visualizations/`  
-**File**: `CarSalesByModelEnd.xlsx`
-
-- Created charts (bar, column, line), pivot tables, and dashboards using Excel.
-- Based on the dataset from IBM Accelerator Catalog.
+It consists of two major parts:
+- **Part 1**: Excel-based visualizations of car sales data
+- **Part 2**: Interactive dashboards created using Google Looker Studio
 
 ---
 
-## 📈 Part 2: Interactive Dashboard with Google Looker Studio
+## 🧩 Project Structure
 
-**Folder**: `looker-dashboard/`  
-**File**: `Sales_and_Service_Dashboard.pdf`
+## 🧩 Project Structure
 
-- Built interactive dashboards with KPIs and filters.
-- Used Google Looker Studio (due to limited Cognos access).
-- PDF and screenshots included for visual reference.
+- `data/`
+  - `Automotive_Industry.xlsx` (original dataset)
+- `excel-visualizations/`
+  - `CarSalesByModelEnd.xlsx` (Excel visual charts)
+- `looker-dashboard/`
+  - `Sales_and_Service_Dashboard.pdf` (Looker Studio export)
+  - `dashboard_screenshot.png` (optional image)
+- `screenshots/`
+  - `dashboard_preview.png` (image used in README)
+- `README.md`
 
----
 
-## 📁 Folder Structure
+## 📊 Part 1: Excel Visualizations
 
-```
-Car-sales-dashboard-project/
-├── data/                      # Raw Dataset
-│   └── Automotive_Industry.xlsx
-├── excel-visualizations/     # Excel dashboards and charts
-│   └── CarSalesByModelEnd.xlsx
-├── looker-dashboard/         # PDF export of Looker/Cognos dashboards
-│   └── Sales_and_Service_Dashboard.pdf
-├── screenshots/              # Dashboard previews
-│   └── dashboard_preview.png
-└── README.md                 # Project documentation
-```
+Using the dataset `Automotive_Industry.xlsx`, the following charts were created in **Excel for the Web**:
 
----
+1. **Quantity Sold by Dealer ID** (Bar Chart)
+2. **Profit by Date and Model** (Line Chart)
+3. **Profit by Year and Dealer ID** (Column Chart)
+4. **Profit of Hudson Models by Dealer ID** (Line Chart, formatted with custom colors)
 
-## 🏷️ Tags
-
-`Excel` `Dashboard` `LookerStudio` `DataVisualization` `DataAnalysis` `IBM` `Coursera`
+🔗 Output file: [`CarSalesByModelEnd.xlsx`](excel-visualizations/CarSalesByModelEnd.xlsx)
 
 ---
 
-## 📌 Notes
+## 📈 Part 2: Looker Studio Dashboard
 
-- Dataset used: `Automotive_Industry.xlsx`
-- Project is beginner-friendly and demonstrates skills in Excel, Google Looker Studio, and dashboard storytelling.
+Created using **Google Looker Studio**, split into two tabs:
+- **Sales Dashboard**
+  - Total profit
+  - Quantity sold
+  - Profit by Dealer
+  - Quantity sold by model
+  - Avg quantity sold
+- **Service Dashboard**
+  - Recalls by model
+  - Customer sentiment
+  - Quantity vs Profit by Month
+  - Recalls heatmap by system
+
+📄 PDF Output: [`Sales_and_Service_Dashboard.pdf`](looker-dashboard/Sales_and_Service_Dashboard.pdf)
+
+> ⚠️ Note: Built using Google Looker Studio via IBM Coursera hands-on lab. Data source connected through Google Sheets and IBM Accelerator Catalog.
+
+---
+
+## 📦 Dataset Source
+
+- IBM Accelerator Catalog → [Automotive Dataset](https://community.ibm.com/accelerators/?context=analytics&type=Data&product=Cognos%20Analytics&industry=Automotive)
+- Terms of Use: [IBM Developer Terms](https://developer.ibm.com/terms/ibm-developer-terms-of-use/)
+
+---
+
+## 🏆 Skills Demonstrated
+
+- Excel Pivot Tables & Charting
+- Dashboard Design (Sales & Service KPIs)
+- Data storytelling & chart formatting
+- Google Looker Studio (Visual & interactive dashboards)
+
+---
+
+## 📸 Dashboard Preview
+
+![Dashboard Preview](screenshots/dashboard_preview.png)
+
+---
+
+## ✅ Project Outcome
+
+This assignment fulfills all requirements in the IBM course:
+- Appropriate chart types and formatting
+- Dashboard structure as per rubric
+- Proper KPIs captured and visualized
+
+
